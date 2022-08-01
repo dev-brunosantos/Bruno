@@ -1,0 +1,60 @@
+/* SEGUNDA SESSÃO */
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, #222 50%, var(--azul-escuro));
+}
+.sobre__titulo {
+    font-size: 50px;
+}
+.sobre img {
+    width: 50%;
+    box-shadow: 0px 0px 50px black;
+    margin: 50px 0;
+    border-radius: 50%;
+}
+.sobre__texto {
+    width: 80%;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.sobre__texto p {
+    text-align: justify;
+    text-indent: 20px;
+}
+.sobre__tecnologias {
+    width: 100%;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sobre__tecnologias .container {
+    display: flex;
+}
+.tecnologias {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tecnologias:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+.tecnologias i {
+    font-size: 50px;
+    color: var(--azul-escuro);
+}
+.tecnologias p {
+    margin-top: 0.5em;
+    color: var(--azul-escuro);
+    font-size: 12px;
+    font-weight: bold;
+}

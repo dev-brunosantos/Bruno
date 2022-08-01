@@ -60,6 +60,11 @@
     content: "\f232"; 
   }
 
+  /* LINKEDIN */
+  .fa-linkedin:before {
+    content: "\f08c"; 
+  }
+
   /* HTML */
   .fa-html5:before {
     content: "\f13b"; 
@@ -86,6 +91,30 @@
   /* GITHUB */
   .fa-github-square:before {
     content: "\f092"; 
+  }
+
+  /* BOOTSTRAP */
+  .fa-bootstrap:before {
+    content: "\f836"; 
+  }
+
+  /* REACT */
+  .fa-react:before {
+    content: "\f41b"; 
+  }
+
+  /* ANGULAR */
+  .fa-angular:before {
+    content: "\f420"; 
+  }
+
+  /* NODE JS */
+  .fa-node:before {
+    content: "\f419"; 
+  }
+  
+  .fa-node-js:before {
+    content: "\f3d3"; 
   }
 
   /* SETA PARA CIMA */

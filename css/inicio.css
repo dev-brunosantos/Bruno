@@ -1,0 +1,62 @@
+/* PRIMEIRA SESSÃO */
+.inicio {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #222 90%, var(--azul-escuro));
+}
+.inicio__titulo {
+    margin: 1em 0 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    animation: aparecer 2s linear;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.inicio__titulo h1 {
+    margin: 1em 0 0.5em 0;
+    font-size: 70px;
+    font-style: italic;
+    line-height: 70px;
+}
+.inicio__titulo p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.inicio__titulo h1, .inicio__titulo p, .inicio__links {
+    background-image: var(--degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inicio__redes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inicio__redes a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.redes-icones {
+    color: var(--azul-escuro);
+    font-size: 50px;
+}
+.inicio__redes p {
+    color: var(--azul-escuro);
+    font-size: 15px;
+}

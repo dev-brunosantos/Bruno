@@ -1,0 +1,41 @@
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projetos-feitos {
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px 0;
+    border: 1px solid var(--azul-claro);
+    border-radius: 10px;
+    background-color: var(--azul-escuro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.projetos-academicos {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    /* border: solid; */
+    border-radius: 20px;
+    text-align: center;
+}
+.projetos-academicos:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    font-size: 20px;
+    text-align: center;
+}
+.projetos-academicos img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+.projetos-academicos p {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 0px var(--preto);
+}

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('../css/cabecalho.css');
-@import url('../css/corpo.css');
+@import url('../css/inicio.css');
+@import url('../css/sobre.css');
+@import url('../css/projetos.css');
+@import url('../css/contatos.css');
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +16,7 @@
 
 :root {
     --branco: white;
+    --preto: black;
     --cinza: #93A4BC;
     --azul-claro: #0082E5;
     --azul-escuro: #005190;
@@ -25,7 +29,7 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #222;
 }
@@ -33,9 +37,10 @@ body {
 .cabecalho {
     width: 100%;
     height: 60px;
-    border-bottom: 0.5px solid;
+    /* border-bottom: 0.5px solid; */
     position: fixed;
-    top: 0;
+    top: 0px;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +53,8 @@ body {
 }
 .telas {
     width: 100%;
-    height: 100vh;
     padding-top: 80px;
+    /* overflow: auto; */
 }
+
+

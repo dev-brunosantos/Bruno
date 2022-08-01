@@ -17,10 +17,10 @@
         <div class="cabecalho__logo"><h2><a href="#">Bruno Santos</a></h2></div>
 
         <ul class="cabecalho__menu">
-            <li class="menu"><a href="#" class="ativo">Início</a></li>
-            <li class="menu"><a href="#">Sobre</a></li>
-            <li class="menu"><a href="#">Projetos</a></li>
-            <li class="menu"><a href="#">Contatos</a></li>
+            <li class="menu"><a href="#inicio" class="linkMenu">Início</a></li>
+            <li class="menu"><a href="#sobre" class="linkMenu">Sobre</a></li>
+            <li class="menu"><a href="#projetos" class="linkMenu">Projetos</a></li>
+            <li class="menu"><a href="#contatos" class="linkMenu">Contatos</a></li>
         </ul>
 
         <i class="fas fa-bars barra-de-menu aberto"></i>
@@ -30,27 +30,30 @@
 
     <main class="corpo">
 
-        <section class="inicio telas">
+        <section id="inicio" class="inicio telas">
             <div class="inicio__titulo">
                 <h1>Bruno Santos</h1>
                 <p>Desenvolvedor</p>
             </div>
 
-            <div class="inicio__sobre">
-                <a href="#" class="inicio__links">Sobre</a>
-            </div>
-
-            <div class="inicio__projetos">
-                <a href="#" class="inicio__links">Projetos</a>
-            </div>
-
-            <div class="inicio__contatos">
-                <a href="#" class="inicio__links">Contatos</a>
+            <div class="inicio__redes">
+                <a href="#">
+                    <i class="fab fa-github-square redes-icones"></i>
+                    <p>GitHub</p>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin redes-icones"></i>
+                    <p>LinkedIn</p>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram redes-icones"></i>
+                    <p>LinkedIn</p>
+                </a>
             </div>
         </section>
 
-        <section class="sobre telas">
-            <h2 class="sobre__titulo">Bruno Santos</h2>
+        <section id="sobre" class="sobre telas">
+            <!-- <h2 class="sobre__titulo">Bruno Santos</h2> -->
 
             <img src="img/Bruno.png" alt="">
 
@@ -72,22 +75,118 @@
                 <h2>Tecnologias que Utilizo</h2>
 
                 <div class="container">
-                    <div class="tecnologias"><i class="fab fa-html5"></i></div>
-                    <div class="tecnologias"><i class="fab fa-css3"></i></div>
-                    <div class="tecnologias"><i class="fab fa-js-square"></i></div>
-                    <div class="tecnologias"><i class="fab fa-git-alt"></i></div>
-                    <div class="tecnologias"><i class="fab fa-github-square"></i></div>
-                    <div class="tecnologias"></div>
-                    <div class="tecnologias"></div>
-                    <div class="tecnologias"></div>
+                    <div class="tecnologias">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fab fa-css3"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fab fa-js-square"></i>
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fab fa-git-alt"></i>
+                        <p>GIT</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="sobre__tecnologias">
+                <h2>Tecnologias que Desejo Aprender</h2>
+
+                <div class="container">
+                    <div class="tecnologias">
+                        <i class="fab fa-bootstrap"></i>
+                        <p>BOOTSTRAP</p>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fab fa-node"></i>
+                        <p>NODE JS</p>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fab fa-angular"></i>
+                        <p>ANGULAR</p>
+                    </div>
+                    <div class="tecnologias">
+                        <i class="fab fa-react"></i>
+                        <p>REACT</p>
+                    </div>
+                    
                 </div>
 
             </div>
         </section>
 
-        <section class="projetos telas"></section>
+        <section id="projetos" class="projetos telas">
 
+            <h2>Meus Projetos</h2>
+
+            <div class="projetos-feitos">
+                <div class="projetos-academicos">
+                    <img src="img/logo.doce.png" alt="">
+                    <p>Doce Onda</p>
+                </div>
+
+                <div class="projetos-academicos">
+                    <img src="img/duka-sushi.jpg" alt="">
+                    <p>Duka Sushi</p>
+                </div>
+
+                <div class="projetos-academicos">
+                    <img src="img/nubank.png" alt="">
+                    <p>Nubank Clone</p>
+                </div>
+
+                <div class="projetos-academicos">
+                    <img src="img/Reciclarte Git.png" alt="">
+                    <p>ReciclArte</p>
+                </div>
+
+                <div class="projetos-academicos">
+                    <img src="img/meiaduzia-logo.jpeg" alt="">
+                    <p>1/2 Dúzia Gastrobar</p>
+                </div>
+                
+                <div class="projetos-academicos">
+                    <img src="img/Rmark5.png" alt="">
+                    <p>RMark TV</p>
+                </div>
+            </div>
+
+        </section>
+
+        <footer id="contatos" class="contatos">
+            <div>
+                <a href="#" class="contatos-redes">
+                    <i class="fab fa-instagram"></i>
+                </a>
+    
+                <a href="#" class="contatos-redes">
+                    <i class="fab fa-github-square"></i>
+                </a>
+    
+                <a href="#" class="contatos-redes">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+    
+                <a href="#" class="contatos-redes">
+                    <i class="fas fa-envelope"></i>
+                </a>
+    
+                <a href="#" class="contatos-redes">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+
+            Direitos reservados a Bruno Santos
+        </footer>
     </main>
+
 
     <script src="js/main.js"></script>
 </body>
