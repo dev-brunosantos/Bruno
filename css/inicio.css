@@ -60,3 +60,15 @@
     color: var(--azul-escuro);
     font-size: 15px;
 }
+@media screen and (min-width: 1024px) {
+    .inicio__redes {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inicio__redes a {
+        margin: 0 1em;
+        text-decoration: none;
+    }
+}
