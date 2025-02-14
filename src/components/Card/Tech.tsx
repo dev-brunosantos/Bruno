@@ -6,7 +6,7 @@ interface TechInfor {
 
 export const CardTech = ({ children }: TechInfor) => {
     return (
-        <div className="w-20 h-20 border-2 rounded-md flex items-center justify-center">
+        <div className="w-20 h-20 border-2 rounded-md flex shrink-0 items-center justify-center">
             {children}
         </div>
     )
