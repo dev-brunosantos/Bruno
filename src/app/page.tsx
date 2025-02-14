@@ -1,6 +1,7 @@
 import { Menu } from "../components/Menu";
 import { Habilidades } from "./_components/Habilidades";
 import { Home } from "./_components/Home";
+import { Projetos } from "./_components/Projetos";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <main>
         <Home />
         <Habilidades />
+        <Projetos />
       </main>
 
       <footer></footer>
