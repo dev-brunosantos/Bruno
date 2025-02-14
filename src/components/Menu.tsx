@@ -35,7 +35,7 @@ export const Menu = () => {
                     </li>
 
                     <li>
-                        <a href="">Habilidades</a>
+                        <a href="#habilidades">Habilidades</a>
                     </li>
 
                     <li>
