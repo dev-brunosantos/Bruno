@@ -6,16 +6,63 @@ import { SiApachenifi, SiOracle, SiNestjs } from 'react-icons/si'
 import { CardTech } from '@/src/components/Card/Tech'
 import { IconType } from 'react-icons/lib'
 
-const teste = [
+const icones = [
     {
         icone: RiNextjsFill
     },
-
     {
         icone: DiMongodb
     },
-
+    {
+        icone: FaHtml5
+    },
+    {
+        icone: FaCss3
+    },
+    {
+        icone: FaJsSquare
+    },
+    {
+        icone: FaReact
+    },
+    {
+        icone: RiTailwindCssFill
+    },
+    {
+        icone: RiBootstrapFill
+    },
+    {
+        icone: RiFirebaseFill
+    },
+    {
+        icone: RiNodejsLine
+    },
+    {
+        icone: DiMysql
+    },
+    {
+        icone: DiPostgresql
+    },
+    {
+        icone: DiSqllite
+    },
+    {
+        icone: BiLogoTypescript
+    },
+    {
+        icone: SiApachenifi
+    },
+    {
+        icone: SiOracle
+    },
+    {
+        icone: SiNestjs
+    },
+    {
+        icone: DiSass
+    }
 ]
+
 
 export function Habilidades() {
     return (
@@ -51,7 +98,7 @@ export function Habilidades() {
                     <FaReact size={40} />
                 </CardTech>
 
-                {teste.map((card) => (
+                {icones.map((card) => (
                     <CardTech>
                         <div>
                             <card.icone size={40} />
