@@ -59,19 +59,17 @@ const icones = [
     }
 ]
 
-
-
 export function Habilidades() {
     return (
-        <section>
+        <section id='habilidades' className='p-4'>
             <h1>Habilidades</h1>
 
-            <div className='w-[100%] h-[100px] border-2 px-4 overflow-x-auto flex items-center gap-4'>
+            <div className='w-[100%] h-[100px] px-4 overflow-x-auto flex items-center gap-4'>
                 {icones.map((card) => (
                     <CardTech>
-                        <div>
                             <card.icone size={40} />
-                        </div>
+                        {/* <div>
+                        </div> */}
                     </CardTech>
                 ))}
             </div>
