@@ -10,7 +10,35 @@ export function Habilidades() {
         <section>
             <h1>Habilidades</h1>
 
-            
+            <div className='w-[100%] h-[100px] border-2 px-4 overflow-x-auto flex items-center gap-4'>
+                <CardTech>
+                    <FaHtml5 size={50} />
+                </CardTech>
+
+                <CardTech>
+                    <FaCss3 size={40} />
+                </CardTech>
+
+                <CardTech>
+                    <DiSass size={40} />
+                </CardTech>
+
+                <CardTech>
+                    <RiBootstrapFill size={40} />
+                </CardTech>
+
+                <CardTech>
+                    <RiTailwindCssFill size={40} />
+                </CardTech>
+
+                <CardTech>
+                    <FaJsSquare size={50} />
+                </CardTech>
+
+                <CardTech>
+                    <FaReact size={40} />
+                </CardTech>
+            </div>
         </section>
     )
 }
