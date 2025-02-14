@@ -14,7 +14,11 @@ export default function App() {
         <Projetos />
       </main>
 
-      <footer></footer>
+      <footer>
+        <div className="flex items-center justify-center">
+          <p>Desenvolvido por Bruno Santos</p>
+        </div>
+      </footer>
     </>
   );
 }
